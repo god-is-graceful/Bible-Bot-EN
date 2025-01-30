@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bible Bot for Discord" />
+    <meta
+      name="keywords"
+      content="bible, bible bot, holy bible, Word of God, Jesus, God, faith, bibles, scriptures"
+    />
+    <title>Bible Bot</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="js/main.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <h2 class="logo">Bible Bot</h2>
+      <div class="menu-icon">&#9776;</div>
+      <ul>
+        <li><a href="#commands">Commands</a></li>
+        <li>
+          <a href="https://dsc.gg/bible-bot" target="_blank">Invite the bot</a>
+        </li>
+        <li>
+          <a href="terms-of-service.html" target="_blank">Terms of Service</a>
+        </li>
+        <li>
+          <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--About the bot-->
+
+    <main>
+      <section class="bot">
+        <div id="bot">
+          <img src="images/logo.png" alt="Bible Bot" width="500" height="500" />
+          <div class="about-bot">
+            <h2>Add a bible bot to your server</h2>
+            <p>
+              Bible is a bot that allows you to read the Bible in multiple
+              languages for in-depth study of the differences between the
+              original texts and their translations. The bot has 93 Bible
+              translations in 36 languages.
+            </p>
+            <a class="button" href="https://dsc.gg/bible-bot" target="_blank">Invite the bot to your server</a>
+          </div>
+        </div>
+      </section>
+
+      <!--Commands-->
+
+      <div id="commands">
+        <h2>List of commands</h2>
+        <h3>Below you can find a list of slash commands of the Bible Bot:</h3>
+        <p><span>/help</span> - shows help information and commands</p>
+        <br />
+        <p>
+          <span>[book] [chapter]:[verse-(s)] [translation]</span> - command
+          scheme for obtaining passages from the Bible. If the user wants to
+          obtain a passage from some Bible translation, the translation
+          abbreviation should be given. For example:
+          <span>John 3:16-17 KJV</span>. If the user has set the default Bible
+          translation, the translation abbreviation need not be given. For
+          example: <span>John 1:1</span>
+        </p>
+        <br />
+        <p>
+          <span>/setversion [translation]</span> - sets the default Bible
+          translation. To set the default Bible translation, you need to enter a
+          translation abbreviation. All translation abbreviations are available
+          in <span>/versions</span>
+        </p>
+        <br />
+        <p><span>/search [text]</span> - is used to find bible passages from the Bible translation</p>
+        <br />
+        <p><span>/versions</span> - shows available Bible translations</p>
+        <br />
+        <p><span>/information</span> - shows information about the bot</p>
+        <br />
+        <p><span>/invite</span> - displays a link with an invitation</p>
+        <br />
+        <p><span>/contact</span> - includes contact to the bot author</p>
+        <br />
+        <p><span>/random</span> - displays random verse from the Bible</p>
+        <br />
+        <p><span>/dailyverse [hour]</span> - displays the verse of the day from the Bible</p>
+        <br />
+        <p><span>/removeuserdata</span> - deletes user data in the database</p>
+        <br />
+        <p><span>/settimezone [timezone]</span> - sets the time zone</p>
+      </div>
+    </main>
+
+    <footer>
+      <div id="copyright">
+        <p class="end">© Copyright 2024 Code Joan</p>
+      </div>
+    </footer>
+  </body>
+</html>
